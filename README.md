@@ -1,6 +1,6 @@
 # react-native-ytdl
 
-A fork of [fent/node-ytdl-core](https://github.com/fent/node-ytdl-core). This allows it to be run in environments where the core node modules like stream, http, crypto. Currently it returns the final downloadable link of the various YouTube video formats by calling
+A fork of [fent/node-ytdl-core](https://github.com/fent/node-ytdl-core). This allows it to be run in environments where the core node modules like stream, http, url are not available. Currently it returns the final downloadable link of the various YouTube video formats by calling
 
 ```js
 ytdl.getInfo(url);
